@@ -11,6 +11,7 @@ describe("SignUp", ()=> {
         cy.get(':nth-child(6) > .Form__Input').type("almunyeem@gmail.com");
         cy.get(':nth-child(6) > .Form__Input').should("have.attr", "name", "customer[email]");
         cy.get(':nth-child(7) > .Form__Input').type("$123abc$")
+        cy.log("Test is completed!");
 
     })
 })

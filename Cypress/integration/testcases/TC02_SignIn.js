@@ -10,7 +10,7 @@ describe("Sign-In", ()=>{
         cy.get('#customer_login > :nth-child(4) > .Form__Input').type("almunyeem@gmail.com");
         cy.get('#customer_login > :nth-child(4) > .Form__Input').should("have.attr", "name", "customer[email]");
         cy.get(':nth-child(5) > .Form__Input').type("$123abc$");
-     
+        cy.log("Test is completed!");
    })
    
 
